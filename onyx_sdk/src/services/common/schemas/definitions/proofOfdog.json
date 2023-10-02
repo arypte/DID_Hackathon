@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "required": ["name", "address", "medical_records", "state", "owner"],
+  "required": ["name", "address", "m_records", "state", "owner"],
   "additionalProperties": false,
   "properties": {
     "name": {
@@ -10,7 +10,7 @@
     "address": {
       "type": "string"
     },
-    "medical_records": {
+    "m_records": {
       "type": "string"
     },
     "state": {
