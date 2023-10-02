@@ -12,6 +12,8 @@ logs/
 *.tsbuildinfo
 *.tsx
 *.map
+.env
+node_modules
 
 # ESLint
 .eslintcache
