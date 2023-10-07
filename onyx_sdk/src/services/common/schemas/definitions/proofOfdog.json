@@ -1,23 +1,16 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "required": ["name", "address", "m_records", "state", "owner"],
+  "required": ["name", "r_date", "m_records" ],
   "additionalProperties": false,
   "properties": {
     "name": {
       "type": "string"
     },
-    "address": {
-      "type": "string"
-    },
     "m_records": {
       "type": "string"
     },
-    "state": {
+    "r_date": {
       "type": "string"
-    },
-    "owner": {
-      "type": "string"
-    }
   }
 }
