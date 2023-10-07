@@ -12,5 +12,6 @@
     },
     "r_date": {
       "type": "string"
+    }
   }
 }
